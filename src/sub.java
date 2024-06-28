@@ -5,9 +5,9 @@ import java.awt.event.ActionListener;
 public class sub {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Sample");
-        JButton button = new JButton("Submit");
-
-        button.setBounds(150, 150, 100, 30);
+        JButton button = new JButton("A");
+        
+        button.setBounds(150, 150, 100, 100);
         button.addActionListener(new ButtonAction());
 
         frame.add(button);
