@@ -22,7 +22,7 @@ public class sub {
 }
 
 class ButtonAction implements ActionListener {
-    private int number;
+    private final int number;
 
     public ButtonAction(int number) {
         this.number = number;
