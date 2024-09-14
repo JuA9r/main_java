@@ -8,7 +8,7 @@ class calculator extends JFrame {
         frame.setVisible(true);
     }
 
-    // generate window
+    // generate calculator window
     calculator(String title){
         setTitle(title);
         setBounds(100, 100, 320, 400);
